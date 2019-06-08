@@ -23,7 +23,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/PPartes"
+            android:id="@+id/p_Cuerpo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -41,7 +41,7 @@
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/PComunes"
+            android:id="@+id/p_Comunes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_label="Palabras comúnes"
@@ -70,4 +70,3 @@
             fab:fab_size="mini" />
     </com.github.clans.fab.FloatingActionMenu>
 </RelativeLayout>
-
