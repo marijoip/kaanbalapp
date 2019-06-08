@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo">
+
     <ScrollView
         android:layout_width="411dp"
         android:layout_height="match_parent">
@@ -14,15 +15,15 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="47dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="45dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Animales"
+                android:text="Abecedario"
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
 
@@ -34,15 +35,13 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/crack"
+            <Button
+                android:id="@+id/button3"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
                 android:layout_marginLeft="230dp"
                 android:layout_marginTop="-76dp"
-                android:text="Button"
-
-                />
+                android:text="Button" />
 
             <Button
                 android:id="@+id/button4"
@@ -94,6 +93,7 @@
         </LinearLayout>
 
     </ScrollView>
+
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
         android:layout_width="226dp"
@@ -156,12 +156,12 @@
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedarios"
+            android:id="@+id/Animales"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="AbecedarioIntent"
-            fab:fab_colorNormal="#FF699F"
-            fab:fab_label="Abecedario"
+            android:onClick="AnimalesIntent"
+            fab:fab_colorNormal="#EC4949"
+            fab:fab_label="Animales"
             fab:fab_size="mini" />
 
 
@@ -187,4 +187,5 @@
     </com.github.clans.fab.FloatingActionMenu>
 
 </android.support.design.widget.CoordinatorLayout>
+
 

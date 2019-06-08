@@ -22,7 +22,7 @@
                 android:layout_marginStart="88dp"
                 android:layout_marginTop="47dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Animales"
+                android:text="Palabras comunes"
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
 
@@ -34,15 +34,13 @@
                 android:layout_marginTop="120dp"
                 android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/crack"
+            <Button
+                android:id="@+id/button3"
                 android:layout_width="115dp"
                 android:layout_height="75dp"
                 android:layout_marginLeft="230dp"
                 android:layout_marginTop="-76dp"
-                android:text="Button"
-
-                />
+                android:text="Button" />
 
             <Button
                 android:id="@+id/button4"
@@ -137,16 +135,6 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/PComunes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="PComunesIntent"
-            fab:fab_colorNormal="#F1DF50"
-            fab:fab_label="Palabras comúnes"
-            fab:fab_size="mini" />
-
-
-        <com.github.clans.fab.FloatingActionButton
             android:id="@+id/PPartes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -155,13 +143,23 @@
             fab:fab_label="Partes del cuerpo"
             fab:fab_size="mini" />
 
+
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedarios"
+            android:id="@+id/Abecedario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
             fab:fab_colorNormal="#FF699F"
             fab:fab_label="Abecedario"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/Animales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="AnimalesIntent"
+            fab:fab_colorNormal="#EC4949"
+            fab:fab_label="Animales"
             fab:fab_size="mini" />
 
 
@@ -187,4 +185,3 @@
     </com.github.clans.fab.FloatingActionMenu>
 
 </android.support.design.widget.CoordinatorLayout>
-

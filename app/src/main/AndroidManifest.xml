@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Numeros"></activity>
+        <activity android:name=".PPartes" />
+        <activity android:name=".PComunes" />
+        <activity android:name=".Colores" />
+        <activity android:name=".Abecedario" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
