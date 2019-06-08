@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:fab="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="@drawable/fondo">
@@ -14,81 +13,32 @@ android:background="@drawable/fondo">
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/button2"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="120dp"
-            android:text="Button" />
 
-        <ImageButton
-            android:id="@+id/button3"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="-76dp"
-            android:text="Button" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/n_meros"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
 
-        <ImageButton
-            android:id="@+id/button4"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="120dp"
-            android:text="Button" />
 
-        <ImageButton
-            android:id="@+id/button5"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="-75dp"
-            android:text="Button" />
 
-        <ImageButton
-            android:id="@+id/button6"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="120dp"
-            android:text="Button" />
 
-        <ImageButton
-            android:id="@+id/button7"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="-75dp"
-            android:text="Button" />
-
-        <ImageButton
-            android:id="@+id/button8"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="120dp"
-            android:text="Button" />
-
-        <ImageButton
-            android:id="@+id/button9"
-            android:layout_width="115dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="-75dp"
-            android:text="Button" />
     </LinearLayout>
 
 </ScrollView>
 <com.github.clans.fab.FloatingActionMenu
-    android:id="@+id/material_design_android_floating_action_menu"
+    android:id="@+id/material_design_android_floating_action_menu3"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_alignParentEnd="true"
     android:layout_alignParentRight="true"
     android:layout_alignParentBottom="true"
     android:layout_marginLeft="150dp"
-    android:layout_marginRight="11dp"
     android:layout_marginBottom="11dp"
     fab:menu_animationDelayPerItem="55"
     fab:menu_backgroundColor="@android:color/transparent"
@@ -121,7 +71,7 @@ android:background="@drawable/fondo">
     fab:menu_showShadow="true">
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/p_Comunes"
+        android:id="@+id/p_Comunes17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="PComunesIntent"
@@ -132,7 +82,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/p_Cuerpo"
+        android:id="@+id/p_Cuerpo18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="pcuerpoIntent"
@@ -142,7 +92,7 @@ android:background="@drawable/fondo">
         fab:fab_size="mini" />
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Abecedario"
+        android:id="@+id/Abecedario19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="AbecedarioIntent"
@@ -153,7 +103,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Animales"
+        android:id="@+id/Animales20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="AnimalesIntent"
@@ -163,7 +113,7 @@ android:background="@drawable/fondo">
         fab:fab_size="mini" />
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Colores"
+        android:id="@+id/Colores21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ColoresIntent"
@@ -175,16 +125,4 @@ android:background="@drawable/fondo">
 
 </com.github.clans.fab.FloatingActionMenu>
 
-<TextView
-    android:id="@+id/textView2"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:layout_marginStart="88dp"
-    android:layout_marginTop="47dp"
-    android:fontFamily="sans-serif-black"
-    android:text="NÚMEROS"
-    android:textColor="@android:color/white"
-    android:textSize="30sp" />
 </android.support.design.widget.CoordinatorLayout>

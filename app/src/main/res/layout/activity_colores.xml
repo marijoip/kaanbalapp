@@ -27,91 +27,14 @@
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
 
-            <ImageButton
-                android:id="@+id/button2"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/button3"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="-76dp"
-                android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/button4"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button5"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button6"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button7"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button8"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button9"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button10"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
-
-            <ImageButton
-                android:id="@+id/button11"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
         </LinearLayout>
 
     </ScrollView>
 
     <com.github.clans.fab.FloatingActionMenu
-        android:id="@+id/material_design_android_floating_action_menu"
+        android:id="@+id/material_design_android_floating_action_menu5"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -152,7 +75,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Comunes"
+            android:id="@+id/p_Comunes27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="PComunesIntent"
@@ -164,7 +87,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Cuerpo"
+            android:id="@+id/p_Cuerpo28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="pcuerpoIntent"
@@ -175,7 +98,7 @@
             tools:src="@drawable/partescuerpo" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedario"
+            android:id="@+id/Abecedario29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
@@ -187,7 +110,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Animales"
+            android:id="@+id/Animales30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AnimalesIntent"
@@ -198,7 +121,7 @@
             tools:src="@drawable/animales" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Numeros"
+            android:id="@+id/Numeros31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="NumerosIntent"

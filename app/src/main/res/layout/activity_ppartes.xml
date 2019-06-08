@@ -94,7 +94,7 @@ android:background="@drawable/fondo">
 
 </ScrollView>
 <com.github.clans.fab.FloatingActionMenu
-    android:id="@+id/material_design_android_floating_action_menu"
+    android:id="@+id/material_design_android_floating_action_menu1"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_alignParentEnd="true"
@@ -135,7 +135,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/p_Comunes"
+        android:id="@+id/p_Comunes7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="PComunesIntent"
@@ -146,7 +146,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Abecedario"
+        android:id="@+id/Abecedario8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="AbecedarioIntent"
@@ -156,7 +156,7 @@ android:background="@drawable/fondo">
         fab:fab_size="mini" />
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Animales"
+        android:id="@+id/Animales9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="AnimalesIntent"
@@ -167,7 +167,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Numeros"
+        android:id="@+id/Numeros10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="NumerosIntent"
@@ -178,7 +178,7 @@ android:background="@drawable/fondo">
 
 
     <com.github.clans.fab.FloatingActionButton
-        android:id="@+id/Colores"
+        android:id="@+id/Colores11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ColoresIntent"

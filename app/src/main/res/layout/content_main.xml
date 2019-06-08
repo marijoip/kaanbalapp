@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <com.github.clans.fab.FloatingActionMenu
-        android:id="@+id/material_design_android_floating_action_menu"
+        android:id="@+id/material_design_android_floating_action_menu7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -23,7 +23,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Cuerpo"
+            android:id="@+id/p_Cuerpo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -41,21 +41,21 @@
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Comunes"
+            android:id="@+id/p_Comunes2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_label="Palabras comúnes"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedario"
+            android:id="@+id/Abecedario3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_label="Abecedario"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Numeros"
+            android:id="@+id/Numeros4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_label="Números"
@@ -63,7 +63,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Colores"
+            android:id="@+id/Colores5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_label="Colores"

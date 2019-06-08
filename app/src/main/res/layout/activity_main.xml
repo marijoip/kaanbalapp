@@ -28,7 +28,7 @@
                 android:textSize="30sp" />
 
             <ImageButton
-                android:id="@+id/button22"
+                android:id="@+id/bjaguar"
                 android:layout_width="151dp"
                 android:layout_height="165dp"
                 android:layout_marginLeft="10dp"
@@ -38,7 +38,7 @@
                 android:text="Button" />
 
             <ImageButton
-                android:id="@+id/button2"
+                android:id="@+id/fcfth"
                 android:layout_width="151dp"
                 android:layout_height="165dp"
                 android:layout_marginLeft="190dp"
@@ -47,59 +47,58 @@
                 android:src="@drawable/jaguar"
                 android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/button4"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
+            <TextView
+                android:id="@+id/crac"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
 
-            <ImageButton
-                android:id="@+id/button5"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
+            <TextView
+                android:id="@+id/button09876"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
 
-            <ImageButton
-                android:id="@+id/button6"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
+            <TextView
+                android:id="@+id/crhjbh"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
 
-            <ImageButton
-                android:id="@+id/button7"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
+            <TextView
+                android:id="@+id/bumnbv"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
 
-            <ImageButton
-                android:id="@+id/button8"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="120dp"
-                android:text="Button" />
 
-            <ImageButton
-                android:id="@+id/button9"
-                android:layout_width="115dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-75dp"
-                android:text="Button" />
+
         </LinearLayout>
 
     </ScrollView>
 
     <com.github.clans.fab.FloatingActionMenu
-        android:id="@+id/material_design_android_floating_action_menu"
+        android:id="@+id/material_design_android_floating_action_menu4"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -137,7 +136,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Comunes"
+            android:id="@+id/p_Comunes22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="PComunesIntent"
@@ -149,7 +148,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/p_Cuerpo"
+            android:id="@+id/p_Cuerpo23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="pcuerpoIntent"
@@ -160,7 +159,7 @@
             tools:src="@drawable/partescuerpo" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Abecedario"
+            android:id="@+id/Abecedario24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="AbecedarioIntent"
@@ -171,7 +170,7 @@
             tools:src="@drawable/abecedario" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Numeros"
+            android:id="@+id/Numeros25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="NumerosIntent"
@@ -183,7 +182,7 @@
 
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/Colores"
+            android:id="@+id/Colores26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="ColoresIntent"
