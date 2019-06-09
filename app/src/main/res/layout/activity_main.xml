@@ -28,7 +28,7 @@
                 android:textSize="30sp" />
 
             <ImageButton
-                android:id="@+id/bjaguar"
+                android:id="@+id/ijaguar"
                 android:layout_width="151dp"
                 android:layout_height="165dp"
                 android:layout_marginLeft="10dp"
@@ -38,17 +38,17 @@
                 android:text="Button" />
 
             <ImageButton
-                android:id="@+id/fcfth"
+                android:id="@+id/icerdito"
                 android:layout_width="151dp"
                 android:layout_height="165dp"
                 android:layout_marginLeft="190dp"
                 android:layout_marginTop="-170dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/cerdito2"
+                android:src="@drawable/cerdito"
                 android:text="Button" />
 
             <TextView
-                android:id="@+id/crac"
+                android:id="@+id/tjaguar"
                 android:layout_width="76dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
@@ -59,7 +59,7 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/button09876"
+                android:id="@+id/tcerdito"
                 android:layout_width="76dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="245dp"
@@ -70,7 +70,7 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/crhjbh"
+                android:id="@+id/tjaguar2"
                 android:layout_width="76dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
@@ -81,7 +81,7 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/bumnbv"
+                android:id="@+id/tcerdito2"
                 android:layout_width="76dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="245dp"
@@ -91,6 +91,212 @@
                 android:text="Español"
                 android:textSize="15sp" />
 
+
+<!--____________________________________________________________-->
+
+            <ImageButton
+                android:id="@+id/icolibri"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/colibri2"
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/itejon"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-170dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/tejon2"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/tcolibri"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ttejon"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tcolibri2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ttejon2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
+
+
+            <!--____________________________________________________________-->
+
+
+
+
+            <ImageButton
+                android:id="@+id/igato"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/gato2"
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/iguacamay"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-170dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/guacamaya2"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/tgato"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tguacamaya"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tgato2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tguacamaya2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
+
+
+            <!--____________________________________________________________-->
+
+
+
+
+            <ImageButton
+                android:id="@+id/ijabali"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/jabali2"
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/iloro"
+                android:layout_width="151dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-170dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/loro2"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/tjabali"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tloro"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tjabali2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tloro2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:text="Español"
+                android:textSize="15sp" />
 
 
         </LinearLayout>
