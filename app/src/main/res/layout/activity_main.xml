@@ -34,7 +34,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/jaguar"
+                android:src="@drawable/jaguar2"
                 android:text="Button" />
 
             <ImageButton
@@ -44,7 +44,7 @@
                 android:layout_marginLeft="190dp"
                 android:layout_marginTop="-170dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/jaguar"
+                android:src="@drawable/jaguar2"
                 android:text="Button" />
 
             <TextView
