@@ -557,7 +557,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="40dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/v"
+                android:src="@drawable/y"
                 android:text="Button" />
 
             <ImageButton
@@ -568,7 +568,7 @@
                 android:layout_marginTop="-70dp"
                 android:background="@android:color/transparent"
                 android:text="Button"
-                fab:srcCompat="@drawable/w" />
+                fab:srcCompat="@drawable/z" />
 
 
             <TextView
